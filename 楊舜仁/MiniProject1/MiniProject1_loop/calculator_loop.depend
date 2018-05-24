@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1458707649 source:c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\codegen.c
+	<stdio.h>
+	<string.h>
+	"codeGen.h"
+
+1458704740 source:c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\lex.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"lex.h"
+
+1458704740 c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\lex.h
+
+1458706748 source:c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"lex.h"
+	"parser.h"
+
+1458707705 source:c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"codeGen.h"
+
+1458706606 c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\codegen.h
+	"parser.h"
+
+1458707705 c:\users\cha\desktop\i2p_mini_project_1\calculator_loop\parser.h
+	"lex.h"
+
+1458707650 source:e:\sr\i2p\i2p2015\i2p2015-2\materials\mini project 1\i2p_mini_project_1_for_students\calculator_loop\codegen.c
+	<stdio.h>
+	<string.h>
+	"codeGen.h"
+
+1458708200 e:\sr\i2p\i2p2015\i2p2015-2\materials\mini project 1\i2p_mini_project_1_for_students\calculator_loop\codegen.h
+	"parser.h"
+
+1458707706 e:\sr\i2p\i2p2015\i2p2015-2\materials\mini project 1\i2p_mini_project_1_for_students\calculator_loop\parser.h
+	"lex.h"
+
+1458704742 e:\sr\i2p\i2p2015\i2p2015-2\materials\mini project 1\i2p_mini_project_1_for_students\calculator_loop\lex.h
+
+1458704742 source:e:\sr\i2p\i2p2015\i2p2015-2\materials\mini project 1\i2p_mini_project_1_for_students\calculator_loop\lex.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"lex.h"
+
+1458707706 source:e:\sr\i2p\i2p2015\i2p2015-2\materials\mini project 1\i2p_mini_project_1_for_students\calculator_loop\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"codeGen.h"
+
+1458707650 source:c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\codegen.c
+	<stdio.h>
+	<string.h>
+	"codeGen.h"
+
+1458708200 c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\codegen.h
+	"parser.h"
+
+1458707706 c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\parser.h
+	"lex.h"
+
+1490153376 c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\lex.h
+
+1490153378 source:c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\lex.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"lex.h"
+
+1458734976 source:c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"lex.h"
+	"parser.h"
+
+1490153649 source:c:\users\rachel\desktop\i2p_mini_project_1_for_students\calculator_loop\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"codeGen.h"
+

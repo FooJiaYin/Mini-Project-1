@@ -1,0 +1,55 @@
+MOV  | REG  : 0    | CONST: 0    | 10cc   |
+MOV  | REG  : 1    | CONST: 0    | 10cc   |
+MOV  | REG  : 2    | CONST: 0    | 10cc   |
+MOV  | REG  : 3    | CONST: 0    | 10cc   |
+MOV  | ADDR : 0    | REG  : 0    | 200cc  |
+MOV  | ADDR : 4    | REG  : 1    | 200cc  |
+MOV  | ADDR : 8    | REG  : 2    | 200cc  |
+MOV  | REG  : 1    | CONST: 2    | 10cc   |
+ADD  | REG  : 0    | REG  : 1    | 10cc   |
+MOV  | REG  : 2    | CONST: 5    | 10cc   |
+ADD  | REG  : 0    | REG  : 2    | 10cc   |
+MOV  | ADDR : 0    | REG  : 0    | 200cc  |
+MOV  | REG  : 0    | CONST: 0    | 10cc   |
+MOV  | REG  : 1    | CONST: 0    | 10cc   |
+MOV  | REG  : 2    | CONST: 0    | 10cc   |
+MOV  | REG  : 3    | CONST: 0    | 10cc   |
+MOV  | REG  : 1    | CONST: 2    | 10cc   |
+MOV  | REG  : 2    | CONST: 3    | 10cc   |
+MUL  | REG  : 1    | REG  : 2    | 30cc   |
+ADD  | REG  : 0    | REG  : 1    | 10cc   |
+MOV  | ADDR : 8    | REG  : 0    | 200cc  |
+MOV  | REG  : 0    | CONST: 0    | 10cc   |
+MOV  | REG  : 1    | CONST: 0    | 10cc   |
+MOV  | REG  : 2    | CONST: 0    | 10cc   |
+MOV  | REG  : 3    | CONST: 0    | 10cc   |
+MOV  | REG  : 1    | ADDR : 0    | 200cc  |
+MOV  | REG  : 2    | ADDR : 8    | 200cc  |
+DIV  | REG  : 1    | REG  : 2    | 50cc   |
+MOV  | REG  : 2    | CONST: 33   | 10cc   |
+MUL  | REG  : 1    | REG  : 2    | 30cc   |
+SUB  | REG  : 0    | REG  : 1    | 10cc   |
+MOV  | REG  : 1    | CONST: 20   | 10cc   |
+MOV  | REG  : 2    | CONST: 31   | 10cc   |
+MUL  | REG  : 1    | REG  : 2    | 30cc   |
+ADD  | REG  : 0    | REG  : 1    | 10cc   |
+MOV  | REG  : 1    | CONST: 4    | 10cc   |
+ADD  | REG  : 0    | REG  : 1    | 10cc   |
+MOV  | REG  : 2    | CONST: 4    | 10cc   |
+ADD  | REG  : 0    | REG  : 2    | 10cc   |
+MOV  | ADDR : 4    | REG  : 0    | 200cc  |
+MOV  | REG  : 0    | CONST: 0    | 10cc   |
+MOV  | REG  : 1    | CONST: 0    | 10cc   |
+MOV  | REG  : 2    | CONST: 0    | 10cc   |
+MOV  | REG  : 3    | CONST: 0    | 10cc   |
+MOV  | REG  : 0    | ADDR : 0    | 200cc  |
+MOV  | REG  : 1    | ADDR : 4    | 200cc  |
+MOV  | REG  : 2    | ADDR : 8    | 200cc  |
+EXIT | CONST: 0    |             | 20cc   |
+-------------------------------------------
+exit normally
+
+r[0] = 7
+r[1] = 595
+r[2] = 6
+Total clock cycles are 2680
